@@ -8,7 +8,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
     padding: 1rem;
-    background-color: #eee;
+    background-color: #dbd7d7;
     color: #333;
     text-align: center;
 }
@@ -18,29 +18,29 @@ aside img {
     width: 200px;
     height: auto;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
-    border: 1px solid steelblue;
+    box-shadow: 0 0 30px rgb(152, 83, 83);
+    border: 1px solid rgb(62, 112, 152);
 }
 
 
 nav {
     color: black;
     display: block;
-    background-color: #599a68;
+    background-color: #458b55;
     padding: 10px;
 }
 
 
 
 h1 {
-    color: stellblue;
+    color: rgb(62, 112, 152);
 }
 
 
 main img {
     width: 200px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(70, 130, 180);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 
