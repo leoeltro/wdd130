@@ -23,11 +23,11 @@ aside img {
 }
 
 
-nav a {
+nav {
     color: black;
     display: block;
     padding: 10px;
-    background: #599a68;
+    background-color: #599a68;
 }
 
 
@@ -47,7 +47,7 @@ main img {
 
 
 p { 
-    padding: 0;
+    padding: 10px;
 
 }
 
