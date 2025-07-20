@@ -28,7 +28,6 @@ nav {
     padding: 10px;
     display: block;
     background: #599a68;
-    padding: 5;
 }
 
 
@@ -48,8 +47,8 @@ main img {
 
 
 p { 
-    padding: 10px;
-    body {background-color: powderblue;}
+    padding: 0;
+
 }
 
 
