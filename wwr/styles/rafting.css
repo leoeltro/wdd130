@@ -1,0 +1,105 @@
+
+:root {
+    --primary-color:db2b39;
+	--secondary-color: 29335c;
+    --accent1-color: f3a712;
+    --accent2-color: 534d41;
+
+	--heading-background-color: #f06;
+	--heading-text-color: hwb(131 11% 22%);
+	--heading-font: ‘Montserrat’, Helvetica, sans-serif;
+	--padding: 1rem;
+	--background: yellow;
+	--font-size: large;
+	--text-align: center;
+}
+
+
+header {
+    background-color: var(--primary-color); 
+    color: var(--accent2-color);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: var(--body-font);
+    color: var(--accentl-color);
+}
+
+
+header, footer, main {
+    width: 840px; 
+    margin: 0 auto;
+}
+
+
+h1 {
+	text-align: var(--text-align);
+	font-size: var(--font-size);
+	text-shadow: 10px 10px 10px hsl(322, 60%, 48%);
+
+	background-color: var(--heading-background-color);
+	color: var(--heading-text-color);
+	font-family: var(--heading-font);
+	padding: var(--padding);
+	background: var(--background);
+
+    position: absolute; 
+    top: 20px; 
+    width: 100%; 
+    padding: 16px; 
+    text-align: center; 
+    opacity: 0.7; 
+    background-color: var(--accentl-color); 
+    color: #fff; /* make sure there is enough contrast with the background-color */ 
+}
+
+
+h2 {
+		text-shadow: 0 0 15px #333;
+	border-bottom: 1px solid #555;
+	margin-bottom: 0.3rem;
+
+	text-align: var(--text-align);
+	background-color: var(--heading-background-color);
+	color: var(--heading-text-color);
+	font-family: var(--heading-font);
+	padding: var(--padding);
+	background: var(--background);
+	font-size: var(--font-size);
+}
+
+
+nav, p, section, article {
+    margin: 16px; 
+    padding: 8px;
+}
+
+
+.socialmedia a { 
+    text-decoration: none; 
+}
+
+
+
+hero {
+    position: relative; 
+}
+
+hero img {
+    display: block; 
+    width: 100%;
+    height: auto;
+}
+
+
+.hero article img { 
+    float: right; 
+    width: 125px; 
+}
